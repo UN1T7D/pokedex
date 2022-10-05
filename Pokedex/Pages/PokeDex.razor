@@ -1,0 +1,71 @@
+﻿@page "/"
+@using Models
+@using Services
+@inject IPokeApiClient PokeApiClient
+
+<h3>PokeDex</h3>
+<MudProgressLinear Color="Color.Primary" Indeterminate="true" Class="my-7" />
+<MudProgressLinear Color="Color.Secondary" Indeterminate="true" Class="my-7"/>
+@if (pokemons == null)
+{
+    <div style="height: 300px;width:100%; display: flex; justify-content:center; align-items:center;">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <MudGrid>
+        <MudItem xs="12">
+            <MudPaper Class="d-flex align-center justify-center mud-width-full py-8">xs=12</MudPaper>
+        </MudItem>
+        <MudItem xs="6">
+            <MudPaper Class="d-flex align-center justify-center mud-width-full py-8">xs=6</MudPaper>
+        </MudItem>
+        <MudItem xs="6">
+            <MudPaper Class="d-flex align-center justify-center mud-width-full py-8">xs=6</MudPaper>
+        </MudItem>
+        <MudItem xs="3">
+            <MudPaper Class="d-flex align-center justify-center mud-width-full py-8">xs=3</MudPaper>
+        </MudItem>
+        <MudItem xs="3">
+            <MudPaper Class="d-flex align-center justify-center mud-width-full py-8">xs=3</MudPaper>
+        </MudItem>
+        <MudItem xs="3">
+            <MudPaper Class="d-flex align-center justify-center mud-width-full py-8">xs=3</MudPaper>
+        </MudItem>
+        <MudItem xs="3">
+            <MudPaper Class="d-flex align-center justify-center mud-width-full py-8">xs=3</MudPaper>
+        </MudItem>
+    </MudGrid>
+    <div>
+        @for (int i = 0; i < NumberOfRows; i++)
+        {
+            <div class="row">
+
+                @foreach (var poke in pokemons.Skip(i * 5).Take(5))
+                {
+                    <div class="card col  mx-2 mb-4 bg-@(poke.Types.FirstOrDefault().PokemonType.Name) | shadow">
+                        <div class="card-body">
+                            <h3 class="text-center">@poke.Name</h3>
+                            <img src="@poke.Sprite.Front" class="img-fluid" alt="@poke.Name">
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+}
+
+@code {
+    IEnumerable<Pokemon> pokemons;
+    public int NumberOfRows { get; set; } = 5;
+
+    protected override async Task OnInitializedAsync()
+    {
+        pokemons = await PokeApiClient.GetAllPokemons();
+    }
+}

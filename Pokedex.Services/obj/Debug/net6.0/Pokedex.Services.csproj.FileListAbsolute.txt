@@ -1,0 +1,15 @@
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\bin\Debug\net6.0\Pokedex.Services.deps.json
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\bin\Debug\net6.0\Pokedex.Services.dll
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\bin\Debug\net6.0\Pokedex.Services.pdb
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\bin\Debug\net6.0\Pokedex.Models.dll
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\bin\Debug\net6.0\Pokedex.Models.pdb
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\obj\Debug\net6.0\Pokedex.Services.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\obj\Debug\net6.0\Pokedex.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\obj\Debug\net6.0\Pokedex.Services.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\obj\Debug\net6.0\Pokedex.Services.AssemblyInfo.cs
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\obj\Debug\net6.0\Pokedex.Services.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\obj\Debug\net6.0\Pokedex.Services.csproj.CopyComplete
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\obj\Debug\net6.0\Pokedex.Services.dll
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\obj\Debug\net6.0\refint\Pokedex.Services.dll
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\obj\Debug\net6.0\Pokedex.Services.pdb
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Services\obj\Debug\net6.0\ref\Pokedex.Services.dll

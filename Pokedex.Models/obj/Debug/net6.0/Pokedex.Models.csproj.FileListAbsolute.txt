@@ -1,0 +1,12 @@
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\bin\Debug\net6.0\Pokedex.Models.deps.json
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\bin\Debug\net6.0\Pokedex.Models.dll
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\bin\Debug\net6.0\Pokedex.Models.pdb
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\obj\Debug\net6.0\Pokedex.Models.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\obj\Debug\net6.0\Pokedex.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\obj\Debug\net6.0\Pokedex.Models.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\obj\Debug\net6.0\Pokedex.Models.AssemblyInfo.cs
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\obj\Debug\net6.0\Pokedex.Models.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\obj\Debug\net6.0\Pokedex.Models.dll
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\obj\Debug\net6.0\refint\Pokedex.Models.dll
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\obj\Debug\net6.0\Pokedex.Models.pdb
+C:\Users\pc\Desktop\CURSO BLAZOR\Pokedex\Pokedex.Models\obj\Debug\net6.0\ref\Pokedex.Models.dll
